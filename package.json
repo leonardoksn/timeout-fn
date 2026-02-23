@@ -1,5 +1,5 @@
 {
-    "name": "timeout-fn",
+    "name": "@leonardoksn/timeout-fn",
     "version": "1.0.0",
     "description": "TypeScript library for adding timeout to async functions with retry, cancellation, and metrics",
     "type": "module",
@@ -12,6 +12,13 @@
             "import": "./dist/index.mjs",
             "require": "./dist/index.js"
         }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leonardoksn/timeout-fn.git"
+    },
+    "publishConfig": {
+        "@leonardoksn:registry": "https://npm.pkg.github.com"
     },
     "files": [
         "dist"
@@ -36,7 +43,7 @@
         "metrics",
         "typescript"
     ],
-    "author": "",
+    "author": "Leonardo Ksn <leodev.ksn@gmail.com>",
     "license": "MIT",
     "devDependencies": {
         "@types/node": "^20.11.0",
