@@ -356,7 +356,7 @@ const user: User = await wrapped(123);   // ❌ Type error
 
 ## License
 
-MIT © [Your Name]
+MIT © Leonardoksn
 
 ## Contributing
 

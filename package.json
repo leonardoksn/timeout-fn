@@ -42,6 +42,7 @@
     ],
     "author": "Leonardo Ksn <leodev.ksn@gmail.com>",
     "license": "MIT",
+    "homepage": "https://github.com/leonardoksn/timeout-fn",
     "devDependencies": {
         "@types/node": "^20.11.0",
         "tsup": "^8.0.1",
